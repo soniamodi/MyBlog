@@ -4,12 +4,9 @@ h1{
   text-align: center;
   padding: 100px;
   margin: 0px;
-  border-width: 0px;
   font-family: 'Brush Script MT', cursive;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  overflow-x: hidden;
 }
 body{
   background-color: beige;
+  margin: 0px;
 }
