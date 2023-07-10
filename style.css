@@ -8,6 +8,7 @@ h1{
   font-family: 'Brush Script MT', cursive;
   margin-block-start: 0em;
   margin-block-end: 0em;
+  overflow-x: hidden;
 }
 body{
   background-color: beige;
