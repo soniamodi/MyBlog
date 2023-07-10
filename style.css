@@ -4,7 +4,8 @@ h1{
   text-align: center;
   padding: 100px;
   margin: 0px;
-  border: 0px;
+  border-width: 0px;
+  font-family: 'Brush Script MT', cursive;
 }
 body{
   background-color: beige;
