@@ -19,6 +19,14 @@ h1{
   height: 100%;
   background-color: rgb(135, 206, 235);
 }
+.ThinBlueRectangle{
+  width: 10px;
+  position: absolute;
+  top: 0;
+  left: 230px;
+  height: 100%;
+  background-color: rgb(135, 206, 235);
+}
 body{
   background-color: beige;
   margin: 0px;
