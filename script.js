@@ -7,19 +7,21 @@ document.addEventListener("DOMContentLoaded", function() {
   const content2 = document.getElementById("content2");
   const content3 = document.getElementById("content3");
 
-  hideContent(content1);
-  hideContent(content2);
-  hideContent(content3);
-
   button1.addEventListener("click", function() {
     toggleContent(content1);
+    hideContent(content2);
+    hideContent(content3);
   });
 
   button2.addEventListener("click", function() {
+    hideContent(content1);
     toggleContent(content2);
+    hideContent(content3);
   });
 
   button3.addEventListener("click", function() {
+    hideContent(content1);
+    hideContent(content2);
     toggleContent(content3);
   });
 
