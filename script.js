@@ -21,8 +21,8 @@ button3.addEventListener("click", function() {
 function showContent(contentElement) {
   const allContent = document.getElementsByClassName("content");
   for (let i = 0; i < allContent.length; i++) {
-    allContent[i].style.display = "none";
+    allContent[i].classList.remove("show");
   }
 
-  contentElement.style.display = "block";
+  contentElement.classList.add("show");
 }
