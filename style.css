@@ -36,3 +36,8 @@ body{
   visibility: hidden;
 }
 
+.button-container button {
+  flex: 1;
+  padding: 10px;
+  font-size: 18px;
+}
