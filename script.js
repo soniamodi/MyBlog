@@ -26,14 +26,14 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   function hideContent(contentElement) {
-    contentElement.style.visibility = "hidden";
+    contentElement.style.display = "none";
   }
 
   function toggleContent(contentElement) {
-    if (contentElement.style.visibility === "hidden") {
-      contentElement.style.visibility = "visible";
+    if (contentElement.style.display === "none") {
+      contentElement.style.display = "block";
     } else {
-      contentElement.style.visibility = "hidden";
+      contentElement.style.display = "none";
     }
   }
 });
